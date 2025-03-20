@@ -1,0 +1,98 @@
+.logo-text {
+    padding-left: 10%;
+    font-family: 'Pacifico', cursive;  /* Stylish font */
+    font-size: 26px; /* Adjust size */
+    font-weight: bold; /* Make it stand out */
+    letter-spacing: 2px; /* Add spacing */
+    color: #ffffff; /* Choose a suitable color */
+}
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
+    color: #ffffff;
+}
+
+.custom-navbar {
+    background: rgba(7, 6, 6, 0.12); /* Dark transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+  }
+.main_body{
+    height: 900px; 
+    width:100%;  
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
+    color: #ffffff;
+    
+   
+}
+.content {
+    width: 100%;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;  /* Pushes text and image apart */
+    align-items: center;  /* Vertically centers the content */
+    text-align: left;  /* Align text to left */
+    height: 100vh;  /* Full screen height */
+    padding: 0 10%;  /* Add spacing on sides */
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+.hero .main-text {
+    flex: 1; /* Takes up half the space */
+    max-width: 50%;
+    font-size: 68px;
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.highlight {
+    color: #00BFFF;
+    font-family: "Lexend Exa", sans-serif;
+    font-size: 50px;
+}
+
+.social-links {
+    height: 15px;
+    text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 68px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+
+.hero .image-container {
+    flex: 1;  /* Takes up half the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero hero-img {
+    width: 300px; /* Adjust size as needed */
+    clip-path: polygon(5% 0%, 100% 0%, 100% 85%, 95% 100%, 0% 100%, 0% 5%);
+    border: 5px solid #ffffff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.division-exp {
+    display: block;
+    text-align: justify;
+    height: 50vh;
+}
+
+.pro-img {
+    height: 40vh;
+    width: auto;
+
+}
+li {
+    display: flex;
+}
